@@ -1,8 +1,10 @@
+import asyncio
+
 import discord
 from discord import app_commands
 
-from bot.config import DISCORD_TOKEN, FAQ_CHANNEL_ID, log
-from bot.claude_client import ask_rulebook
+from bot.config import DISCORD_TOKEN, FAQ_CHANNEL_ID, RULEBOOK_REFRESH_HOURS, log
+from bot.claude_client import ask_rulebook, refresh_rulebook
 
 MAX_RESPONSE_LENGTH = 1900
 
@@ -92,6 +94,18 @@ class BeerFAQBot(discord.Client):
             log.info("FAQ channel: %s", self.faq_channel_id)
         else:
             log.info("No FAQ channel set — use /setchannel in Discord")
+        self.loop.create_task(self._refresh_rulebook_loop())
+
+    async def _refresh_rulebook_loop(self) -> None:
+        """Periodically re-fetch the rulebook from Google Docs."""
+        await self.wait_until_ready()
+        interval = RULEBOOK_REFRESH_HOURS * 3600
+        while not self.is_closed():
+            await asyncio.sleep(interval)
+            try:
+                await refresh_rulebook()
+            except Exception:
+                log.exception("Rulebook refresh task error")
 
     async def on_message(self, message: discord.Message) -> None:
         if message.author.bot or not self.user:
