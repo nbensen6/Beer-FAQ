@@ -1,0 +1,473 @@
+Beer League Rulebook (v3.2)
+==========================
+
+[Page 1 - Summary]
+
+Website: Beer League home page
+Season Start: March 2, 2026
+Current Season: 14
+Trade Window: TBD
+Salary Cap: BLL-TBD, BLS-TBD
+Playoff Format: TBD
+# of Teams: TBD
+Playoffs Start: TBD
+Season Format: TBD
+Minimum # of Casts per Team: 0
+
+Quickly navigate to specific sections of rules by using the outline on the left hand side. Feedback on the rules can be submitted via this form under the General Feedback category.
+
+Rules are subject to change at any time due to new or unforeseen issues, challenges or scenarios arising throughout the season. However, the Beer League Commissioners will attempt their best to maintain a consistent set of rules once a season has begun. The Beer League Commissioners reserve the right to enforce discretionary exceptions, additions or removals to the rules as they deem necessary for the benefit of the greater community.
+
+Objective of the League
+
+The Beer League's primary goal is to foster a competitive environment that rewards team-play, improving throughout the season and researching / preparing for your opponents. Teams will play weekly matches against opponents within the League. Teams are highly encouraged to practice often with their full team and/or scrim with other teams for more serious practice or join in-houses (custom 5v5s, AKA "shitty 5s") among the community for less serious games.
+
+Additionally, the League welcomes participation from all community members; some examples of participation that have been well received are:
+- MyBackIsSoar's weekly Running it Down recaps
+- Casting by Bunnycuo, SlamuraiJack, Super Noob, SeeMeNoMas, and others
+- Friendly banter and interaction in Twitch chat during games being cast
+- Alternate game tournaments (ex. Overwatch / Apex / Rocket League by ZestyQueso)
+- Open to ideas from you as well!
+
+Last updated: 1/21/2026
+
+---
+
+[Page 2 - Section 1: General Rules]
+
+1. General Rules
+
+1.1 - League Management
+
+1. The Beer League is managed by a panel of Commissioners, the number of which may change between seasons.
+   The Commissioners commit to being open to feedback from players and captains on issues or concerns that arise throughout the season and will do their best to accommodate the majority of the community when decisions are made. Feedback can be given:
+   1. Directly to your team captain, who will circulate the feedback with the other captains and Commissioners in the #captain-text Discord channel.
+   2. Through #the-forum Discord channel, which is a public channel dedicated to more serious conversation pertaining to the League.
+   3. Through the #forms-and-reports Discord channel, where you can submit a Feedback form directly to the Commissioners (typically used for more sensitive feedback).
+
+1.2 - League Format
+
+1. Historically, the League has housed anywhere from 4 - 12 teams during a season. Depending on how many teams sign up, the Commissioners will select a season format that they feel best fits the League.
+2. Regular season
+   1. Once set, the regular season schedule can be found on the Beer League website. The League format will be decided once the Commissioners have a more concrete idea as to how many teams are willing to participate.
+   2. Regular season example format options include but are not limited to:
+      - Double round robin with NO groups (all teams face each other twice in regular season).
+      - Double round robin WITH groups (teams within each group face each other twice).
+      - Single round robin with NO groups (all teams face each other once).
+3. Bye weeks will be determined at the start of each season and will take into consideration major North American holidays.
+   1. Bye weeks may be added by the Commissioners on short notice for exceptional circumstances (ex. servers being down).
+4. Each regular season series will be played in a BO3 format. Points gained during the regular season will be used to create seeds for postseason play. Points are earned as follows:
+   1. 1 point per series won
+5. Postseason (playoffs)
+   1. Depending on the format and number of teams, after the conclusion of the regular season, the bottom teams according to regular season standings may participate in a Wildcard Week, where they will fight to earn the last two spots into playoffs.
+
+---
+
+[Page 3 - Postseason Seeding & Rating System]
+
+   2. Postseason seeding criteria is subject to change at any point until playoffs, but will generally follow these guidelines:
+      2.1. Seeding will be determined by the highest number of season points earned
+      2.2. Ties involved exactly two teams will be resolved by the following tiebreakers, in order:
+         - Most game wins in the entire season
+         - Head-to-head game wins
+         - Head-to-head series record
+         - Fewest game losses in the entire season
+         - A best-of-1 match or coinflip, depending on scheduling feasibility (this would be arranged through the Commissioners)
+      2.3. Ties involving three or more teams will be resolved by the following tiebreakers, in order:
+         - Most game wins in the entire season
+         - Head-to-head game wins
+         - Head-to-head series record
+         - Fewest game losses in the entire season
+         - A best-of-1 3-team round robin, 4-team randomized bracket
+      2.4. If at any point in a multi-team tiebreaker a team is set apart by a specific line item, the remaining tie will be re-broken starting from the top of the appropriate list of tiebreakers
+
+1.3 - Rating System
+
+1. All players must have an account with a minimum level of 50 and a minimum number of ranked games based on Beer League tenure (see details listed below). In the event that the Beer League season is starting at the same time as a new LOL season, you are allowed to use the previous season to fulfill the ranked games requirement.
+   1. Each player must have at least one account with a minimum level of 50
+   2. Players that have not played in at least 2 of the last 4 Beer League seasons will need a minimum of 30 ranked games in a single queue (flex or solo); you cannot spread the 30 minimum ranked games across multiple accounts.
+      1. Exceptions can be made if the Commissioners deem it necessary.
+   3. Players that have played in at least 2 of the last 4 Beer League seasons do not have a minimum rank game requirement. However, if you do not have at least 15 ranked games in a single queue, we will pull your most recent rank season forward as if it is your current rank.
+      1. As an example, if you are Diamond 4 in season 13.2, but you do not have 15 ranked games in 14.1 or 14.2, then you will be considered Diamond 4 in 14.1 and 14.2.
+   4. Players who have competed in 3 or more seasons of the Beer League and who are within good standing of the league will receive "BL Vet" status. This allows them to be eligible to be rated without having to play the 30 ranked games if they have not participated recently in the Beer League.
+
+---
+
+[Page 4 - Rating System continued]
+
+2. All players and potential players, including subs, are manually reviewed by the Commissioners and a rating committee each season and given a Beer League rating.
+   1. The Beer League rating uses a variety of metrics to obtain a numerical value; the exact method is not shared to prevent players from manipulating variables to receive a more favorable rating. An assigned rating will not change once the season has started, even if your solo or flex queue rank significantly increases.
+   2. If a Commissioner determines that a player is not eligible or a player feels they have been rated unfairly, you may submit a ticket in the #forms-and-reports Discord channel under the General Feedback category. If the appeal is declined, the decision is final.
+3. If a player joins mid-season, they must be rated before they are eligible to play in the League. New or returning players that did not participate in the previous season can submit a request to be rated using the #forms-and-reports Discord channel. We will do our best to have a rating assigned within 48 hours.
+   1. A new player must be rated before the trading window closes (defined in section 4.2) to be eligible to play in the current season. Once the trading window closes, no new players or subs will be able to enter the league for the remainder of the season.
+4. A player's highest ranked account and any alts must be disclosed when the player expresses interest to play in the League.
+   1. Failure to report a player's highest-ranked account (solo queue and flex) is treated as smurfing and will result in a penalty determined by the Commissioners that could be up to a permanent ban and reversal of all wins in which the player participated.
+   2. Alt accounts not disclosed when a player was signed up or added to a team cannot be added later.
+      1. If a player's account gets banned, that is their problem. The League will not make any effort to accommodate a player who has been banned. Don't get yourself banned.
+      2. All alt accounts should be disclosed for visibility of opposing teams while they scout.
+5. Team rating
+   1. A team rating is the sum of the individual ratings of the 5 players being fielded for a game. It is the team captain's responsibility to ensure that their team is a valid team when using subs or alternate players.
+6. Salary cap
+   1. Each season, a team salary cap is determined by the Commissioners. The cap is enforced to try to create balanced teams across the league where each team and player feels like they have a chance to win and compete.
+   2. The salary cap can be found at the top of the document.
+
+1.4 - Cheating
+
+1. Using scripts or 3rd party exploits in-game is strictly prohibited in accordance with Riot's policies.
+2. Smurfing and ringing are strictly prohibited.
+
+---
+
+[Page 5 - Cheating & Communication]
+
+   1. This includes using lower-ranked alternate accounts while not disclosing a main account, failing to disclose alternate accounts that have achieved a higher rank than a main, and having a player use someone else's account.
+3. Players are required to report cheating, smurfing, or ringing if they become aware of it. Not reporting known violations will be treated the same as committing those violations yourself.
+   1. To report these issues, use the Report an Issue & General Feedback form, found in the #forms-and-reports Discord channel.
+4. All cheating violations will result in a ban and forfeiture of all previous match results in which the cheater was present.
+   1. It is the captain's responsibility to hold their team accountable and ensure that their players are acting in accordance with the rules.
+   2. Bans are given on a by-person basis, not a by-account basis.
+
+1.5 - Communication
+
+1. Discord will be the primary method of communication for the League.
+   1. Both players and captains are responsible for keeping up to date with announcements, schedules, etc that are posted in Discord.
+   2. Failure to check the Discord, resulting in missed games can result in forfeiture of matches, player drops, or other penalties.
+2. During the draft and in the pre-game lobby, teams are allowed 1 coach/manager to join them in their Discord voice channel. The coach can assist with draft strategy and last-minute advice prior to the game starting.
+3. Once the league game lobby has completed and the game is loading, anyone not playing in the match must leave the channel.
+   1. This includes coaches, managers, and non-player captains.
+   2. Breaking this rule will result in immediate punishment, including game forfeiture with the potential of additional penalties determined by the League Commissioners.
+      1. If you see an opposing team breaking this rule, screenshot/record the offense (make sure to include timestamps and thorough documentation) and submit a report in the #forms-and-reports Discord channel for the Commissioners to investigate.
+4. This should be common sense but it needs to be said:
+   1. General communication etiquette is in force, so don't start unnecessary drama and don't be an asshole. If you have an issue with the league, another player, a decision made by the commissioners, your team, etc, use the proper channels to seek a resolution. There are many ways to communicate an issue that will give you the best chance of resolution.
+   2. Complaining in Discord or trying to incite others to rile the community up for an argument is not helpful and will result in first a warning and then escalated penalties determined by the Commissioners, up to and including being banned from the League.
+
+---
+
+[Page 6 - Miscellaneous]
+
+1.6 - Miscellaneous
+
+1. New champions and significant champion updates/reworks will not be available until the following patch has been released. The Commissioners reserve the right to make a final decision on whether or not a champion update/rework is considered "significant."
+   1. If a new champion is released during playoffs, they are disabled for the entirety of playoffs.
+2. Harassment and hate speech are strictly not allowed and will receive swift punishment, up to and including being banned from the League. Harassment and hate speech can take many forms but you should avoid slurs, discriminatory remarks, and repeated attacks against a person or team based on past actions, race, gender, or sexual orientation.
+   1. Any incidents involving harassment or hate speech should be reported to your captain and/or the Commissioners. You are also able to utilize the Report An Issue & General Feedback Form in the #forms-and-reports Discord channel if you would like to formally and directly report the incident.
+   2. Additionally, League Commissioners reserve the right to kick or penalize particularly disruptive individuals who frequently cause drama within the community. This will be a relatively rare occasion but to be safe - just don't be an asshole.
+3. When a team's captain takes an action that the majority of the team's members disagree with, that captain may be removed from their team and their action (whether a forfeit, disbanding of the team, or otherwise) may be invalidated.
+4. If a team disbands or loses a majority of its members and they are not able field a consistent, full-time roster by the time the trading window is closed, all future games the team would have played will be counted as a win for the opposing team, effectively giving them a bye week.
+   1. The Commissioners reserve the right to reconfigure brackets or the schedule if multiple teams disband during the course of a season to better accommodate the remaining teams.
+5. In accordance with Beer League objectives - competition, community and team-play - players in official matches are expected to play with the goal of winning their games and supporting their teammates. Blatantly undermining the competitive integrity of the League through intentionally feeding, leaving matches without reason, random itemization tools (e.g Ultimate Bravery), Win-Trading, etc may be grounds for disciplinary action.
+   1. To be clear, having a bad game or trying out off-meta picks that you have a legitimate reason or strategy for (and ideally have practiced), is not against the rules.
+   2. The spirit of the rules is to encourage all players to take their games seriously as friendly competition is one of the primary reasons for many players to participate in the League.
+6. Teams are required to cast a minimum quota of games (not their own) based on the season format. If a team does not meet this quota, they will not be eligible for playoffs. Their playoff spot will go to the next eligible team.
+   1. The cast must include one or more players from your team. You may also use someone who is not associated with any team if they have agreed to cast for your team and you have told the Commissioners.
+   2. See minimum number of casts in the top summary.
+
+---
+
+[Page 7]
+
+   3. When a player has completed a cast, complete the form in the #forms-and-reports channel. If players from two separate teams cast a game, each player should complete the form.
+7. These rules are not comprehensive and may not cover every situation. When extreme and/or unforeseen circumstances that these rules do not cover arise, the rules defer to the Commissioner's discretion.
+
+---
+
+[Page 8 - Section 2: Operational Items]
+
+2. Operational Items
+
+2.1 - Match Scheduling
+
+1. Scheduling games
+   1. Matches occur once per week. A week is defined as starting on Monday of a given week through the following Sunday. (ex. Monday, July 3, 2023 - Sunday, July 9, 2023).
+   2. Wednesday's and Sunday's are designated as League Days. Players should make every effort to leave these days open so scheduling is somewhat predictable.
+      1. League days are given priority in schedule conflicts. See section Picking a game time below for details.
+      2. As an additional incentive, casters will give preferential treatment to series that are played on a League Day. If the casters are not able to get to all series in a week, the series played on League Days will generally be cast first.
+   3. Scheduling should occur as follows:
+      1. One of the team captains are required to create and share a When2meet ("W2M") with their team and their scheduled opponent prior to Wednesday before the week of their match (ex. if Team 1 is scheduled to play Team 2 for week 5, the captains of those teams should share a W2M no later than Wednesday of week 4). Each player on both teams must fill out the when2meet individually.
+      2. When putting in your availability, please put in the range of time that you can START a series (e.g. if I am able to play Wednesday from 7pm - 12am, I would fill in that I am available on the W2M from 7pm - 10pm (assuming no more than 2 hours of a series).
+      3. The W2M must be complete, at the latest, by Sunday morning before the scheduled week. If a team fails to complete the When2meet by Sunday and does not provide a valid reason/solution (ex. player X gets their work schedule on Monday, so we will fill it out immediately Monday morning), then the opposing team may choose the day that works best for them, regardless of League Days or how many subs it will require for the late submission team.
+         - Team captains that consistently fail to complete the W2M in a timely manner will be subject to disciplinary action at the discretion of the Commissioners.
+      4. The date and time of the match for the following week should be agreed upon no later than Sunday night. If both teams have conflicts, team captains will need enough time to work with their team members and the opposing team to find an acceptable solution.
+      5. Once a time has been agreed upon, the date and time should be posted in the #game-schedule channel on Discord.
+
+---
+
+[Page 9 - Picking a Game Time & Rescheduling]
+
+2. Picking a game time
+   1. A time should be selected that comes as close to full starting rosters on both sides as possible - subs do not count toward the evaluation of the W2M. If 9 players are available on one day and 8 on another, the day with 9 available players should be selected.
+   2. If there are multiple days with the same number of players missing (ex. Team 1 is missing a player on Monday but Team 2 is missing a player on Wednesday), the team who can play on the League Day is given priority.
+   3. If both teams have made time on a League Day but at different times or on different league days (ex. one team is available Wednesday, the other Sunday), the captains should discuss the availability of their subs.
+   4. If all else fails, a coin toss should be used to decide which day to choose.
+      1. In the event of a coin toss deciding which day to meet, the loser of the coin toss will not lose bans for substitutions.
+      2. For example, if 9 players are available on two different days, a coin toss takes place. The winner of the coin toss will have five players and the loser will have four players. In this scenario, the losers should not be penalized with a ban loss for needing a substitution.
+
+2.2 - Rescheduling
+
+3. If a team cannot make it to a match as originally scheduled, they may attempt to reschedule the match.
+   1. If no reschedule is agreed upon, they will be forced to field a team at the original time or else forfeit.
+4. If a team wishes to reschedule, they should reach out to the captain of the opposing team and request a new match date/time.
+   1. Both teams must then agree to a new day and/or time for the match.
+   2. If the opposing team does NOT agree to a new date/time, the team wishing to reschedule must field a team at the original time or else forfeit.
+5. The team which requested the reschedule should post a screenshot of the reschedule being agreed to in the #game-schedule channel on Discord.
+   1. If a reschedule is not posted, it may not be considered official. If this leads to any form of dispute, the Commissioners may assign a forfeit to the party deemed to be at fault or, if determining fault is not feasible, assign a double forfeit.
+6. Once a reschedule has been agreed to and posted, it is considered the new official match time and teams are expected to be ready at that time. Any further changes must follow the same reschedule process as outlined above.
+
+2.3 - Name Changes
+
+1. If a player changes their summoner name during the season, they need to create a form submission in the #reports Discord channel. Various websites and rosters will then be updated to reflect the change.
+2. If a player does not report their summoner name change at least 24 hours prior to their next League series, their team will incur 1 second round ban losses per game that player is in that day.
+
+---
+
+[Page 10 - Section 3 & 4: Captain Responsibilities & Roster Management]
+
+3. Captain Responsibilities
+
+3.1 - Captain's Guide
+
+1. The Commissioner's have developed a Captain's Guide that will help both new and veteran captains fully understand their roles and responsibilities throughout the season.
+2. All captains will have the option to attend a Discord meeting before the season begins to review the Captain's Guide and ensure that they do not have any questions on its contents. The Commissioners will facilitate the meeting and be ready to answer any questions remaining.
+
+4. Roster Management
+
+4.1 - Team Rosters
+
+1. A roster should be composed of at least 5 players covering all 5 standard positions (top, jungle, mid lane, bot carry and support). Teams are strongly encouraged to have a 6th and 7th player as a rostered sub to allow for substitutions. A full roster will consist of no more than 2 rostered subs.
+2. Only two players of 6 cost or higher are allowed per team (Beer League: Fearless).
+3. A player cannot be on more than one roster at a time.
+4. The fielded roster for a match MUST be at or below the team salary cap.
+   1. If a team plays with a fielded roster that is over the cap, their series is automatically forfeit in favor of the opposing team.
+5. Only team captains should make and request roster changes. All roster changes need to be announced in the #captain-text Discord channel.
+6. The team captain should ensure their team is correct in the Beer League Ratings doc. If it is not, they should inform the Commissioners and the opposing team's captain at least 24 hours prior to their series so that it can be corrected and the opposing team can prepare for the series.
+   1. If a player is used that is not on the official roster and the team captain has not followed the instructions above, they will incur the penalty of using a Universal Sub and providing less than one hour of notice (see section 4.4 - Substitutions).
+
+4.2 - Trading Window
+
+1. Teams are allowed to make roster changes during the trading period, which comprises the first 60% of the regular season.
+   1. Once 60% of the regular season games have been played, no further trades (including player additions) are allowed.
+   2. In the event of exceptional circumstances, League Commissioners may allow a player add after the trading period has closed. This would be a very rare occurrence and should not be expected.
+
+---
+
+[Page 11 - Roster Changes]
+
+4.3 - Roster Changes
+
+1. During the regular season, all roster changes have a waiting period of 1 full Beer League week to take effect; if you add a new rostered player in week n, they're considered a universal sub for week n+1 and a rostered sub for week n+2. This discourages teams from picking up a sub or trading players for a single series and then dropping them.
+   1. Example: Team A is in week 1 of the season and wants to add a rostered sub to their team. Their new player will be considered a universal sub for week 2 and a rostered player/sub starting week 3.
+2. Players may be traded between teams as long as both players agree to the trade. Player trades need to be reported in the #captain-text Discord channel and confirmation from both players must be provided to the Commissioners.
+   1. There must be some combination of players on the roster such that the traded player will not cause the team to exceed the salary cap.
+   2. This trade must occur before the trading window ends (defined in Section 4.2).
+3. In the event a player is not a good fit for a team, players may be dropped at any time during the regular season. The entirety of the remaining team members should agree with the decision. Player drops should be a last resort due to the heavy disruption in team morale and synergy, as well as tension in the community and with the member being dropped.
+   1. Keep in mind that additions to your roster are not allowed after the trading window has closed, so it is a good idea to identify 6th and 7th players as rostered subs, even if they don't plan on playing often.
+4. A player may decide they are not a good fit for a team and decide to drop themselves.
+   1. If this occurs before the trade window closes, they may join another team or be used as a universal sub.
+   2. If this occurs after the trading window has closed, that player cannot join another team nor be used as a universal sub for the duration of the season.
+      1. Players should think carefully of the consequences of leaving a team prior to making their decision.
+5. Player kicks involve complete removal of a player from the team. A captain contemplating a player kick must:
+   1. Submit evidence of toxicity or a player behaving in a significantly detrimental fashion to the health of the team.
+   2. Receive 100% agreement from the remaining commonly fielded team members that the player in question is detrimental.
+6. A team must have at least 5 rostered members on their team prior to the trading window being closed or they will be disbanded. Those 5 members cannot exceed the salary cap.
+
+---
+
+[Page 12 - Substitutions]
+
+4.4 - Substitutions
+
+1. Due to scheduling conflicts, teams will occasionally need to use substitute players. Having an unexpected player in a series can negatively impact both that team's performance by disrupting the team dynamic as well as interfering with the opposing team's draft strategies, which are an important aspect of Beer League preparation.
+2. There are 3 different types of substitutes available in the League:
+   a. Rostered sub - a player that is reserved on your roster. You can use any player on your roster interchangeably, even in the middle of a series.
+   b. Universal sub - a player in the Beer League discord that has already been rated. A player that is affiliated with another team may sub for another team no more than two times during the regular season.
+      1. During playoffs, rostered players still in the playoffs are NOT eligible to be a sub for other teams.
+      2. Players from teams that have been knocked out of playoffs are eligible to be considered universal subs.
+   c. Outside sub - a player not rated prior to the start of the season that has an account of at least level 50 and at least 50 ranked games in a single queue during the current season.
+      1. Outside subs must be rated prior to being fielded for a game. A team captain can submit a request for the outside sub to be rated using the #forms-and-reports Discord channel. A rating will be assigned within 48 hours.
+      2. The Commissioners reserve the right to deny an outside sub if there is concern about their skill level not matching their current rank (ex. the player has reached Diamond in past seasons but is currently silver).
+      3. Once an outside sub has been rated, they will be considered a universal sub beginning the week following after they play.
+         - Ex. Team A plays on Thursday; they submit a request for an outside sub to be rated on Monday. On the Monday after their series, the outside sub is now considered a universal sub.
+      4. An outside sub must be rated before the trade window closes to be eligible to play in that season.
+3. To encourage teams to have a 6th and/or 7th player on their roster to be prepared for substitutes, the following penalties will be applied when using each category of substitute:
+   1. Rostered sub
+      1. There is NO penalty for using a rostered sub.
+      2. Rostered subs are able to play and flex in any position without being required to inform the opposing team captain. You can use them at any time, even swapping rostered players/subs out between games in the same series.
+      3. All fielded players must be in the game lobby prior to starting the draft for a game so that the opposing team knows which players are participating in the draft.
+   2. Universal sub
+
+---
+
+[Page 13 - Substitution Penalties]
+
+      1. Using a universal sub will incur the loss of 1 second round ban (the team losing a ban can choose which of the 2 second round bans they want to forfeit).
+      2. The universal sub is NOT allowed to swap roles/positions during the series.
+      3. During playoffs, the universal sub must have an equal or lower rating of the player they are replacing. This is to prevent last-minute "upgrades" to a team in the playoffs.
+      4. The team captain who is utilizing the universal sub is also required to inform the opposing captain of the sub and which role the universal sub will be filling at LEAST 24 hours prior to the scheduled game time.
+         - If the team captain who is utilizing the universal sub informs the opposing captain of the sub and their role LESS than 24 hours prior to the scheduled game time, they will instead incur the loss of 2 second round bans.
+         - If the team captain who is utilizing the universal sub informs the opposing captain of the sub and their role LESS than 1 hour prior to the scheduled game time, they will instead incur the loss of 1 first round and 1 second round bans.
+   3. Outside sub
+      1. Using an outside sub will incur the loss of 1 second round ban (the team losing a ban can choose which of the 2 second round bans they want to forfeit).
+      2. The outside sub is NOT allowed to swap roles/positions during the series.
+      3. Outside subs are not allowed to be utilized after the trading window has closed, meaning no outside subs are allowed during playoffs.
+      4. The team captain who is utilizing an outside sub is also required to inform the opposing captain of the sub and which role the outside sub will be filling at LEAST 48 hours prior to the scheduled game time.
+         - If the team captain who is utilizing the outside sub informs the opposing captain of the sub and their role LESS than 48 hours prior to the scheduled game time, they will instead incur the loss of 2 second round bans.
+         - If the team captain who is utilizing the outside sub informs the opposing captain of the sub and their role LESS than 24 hours prior to the scheduled game time, they will instead incur the loss of 1 first round and 1 second round bans.
+      5. Outside subs are not permitted if notice of at LEAST 24 hours is not given.
+4. If a team uses more than one universal or outside sub in a series, they will receive a maximum sub penalty of 3 bans, regardless of when the opposing team was notified. The selection of the 3 bans will be chosen by the opposing team captain.
+5. No team is allowed to utilize more than 2 universal subs, outside subs or a combination of both types of subs in a series (e.g. the team's fielded roster must be at least 60% (3/5) of their rostered players).
+
+---
+
+[Page 14 - More Sub Rules & Lobby/Draft]
+
+6. If a team reports using a sub but then their rostered player is able to make the match, the team captain should notify the opponent. If this happens less than 24 hours before the match, the team that reported using a sub will incur the appropriate sub penalty despite not using the sub.
+   1. Scouting and planning is an important part of the Beer League. Changing the expected players last minute, even if that includes going back to the main roster, can nullify the scouting effort made by the opposing team and will still be penalized.
+7. If a game time is decided by coin toss, the loser of the coin toss should not incur additional substitution penalties. See example in section 2.1.2.4
+
+5. Lobby & Draft
+
+5.1 - Lobby
+
+1. As a reminder from section 1.5, during the draft and in the pre-game lobby, teams are allowed 1 coach/manager to join them in their Discord voice channel. The coach can assist with draft strategy and last-minute advice prior to the game starting.
+   1. Once the league game lobby has completed and the game is loading, anyone not playing in the match must leave the channel. Penalties for not complying are listed in section 1.5.
+2. Before a lobby is created, the captains of both teams should join a Discord voice channel and flip a coin to determine who has first side selection.
+   1. Captains can use the #coin-flip channel and the /flip command to perform the coin flip.
+   2. During regular season, the losing team of the previous game will receive side selection.
+   3. During playoffs, side selection for game 1 will be decided by the higher seeded team. Side selection for games 2 and beyond is given to the team that lost the previous game.
+      1. In playoffs, if both teams are seeded the same, the tiebreaker will be who has more points overall. In the event both teams have the same amount of overall points, their head-to-head record will be used. If their head-to-head is the same, they will flip a coin.
+3. The lobby should be a tournament lobby.
+4. Teams are expected to arrive with all team members at the scheduled match time.
+   1. If a team does not have anyone on its roster ready to draft and enter the game 5 minutes after the scheduled match start time, the opposing team can declare the offending team has forfeit the match.
+      1. The opposing team can choose to allow a few additional minutes for extenuating circumstances if the offending team has communicated that they will be late.
+   2. If a team does not have its full roster ready to draft and enter the game 15 minutes after the scheduled match start time, they forfeit the series.
+5. Once a game has finished, teams should take no more than 10 minutes between games before the draft has started.
+   1. If a team has taken more than 5 minutes to prepare for the next game, the opposing team may give a 5-minute warning. This warning should be documented with a timestamped screenshot.
+
+---
+
+[Page 15 - Draft Rules]
+
+   2. If a team is given a warning and is still not yet ready to play after five minutes have elapsed, they forfeit a game.
+   3. If they take an additional 10 minutes (15 minutes following the warning), they forfeit the remainder of the series.
+   4. Teams may agree to extend time between games as needed by not giving a 5-minute warning.
+6. Teams should be in order in the lobby before the League client draft begins.
+   1. The correct order is Top, Jungle, Mid, Bot, and Support from top to bottom
+   2. Players are free to lane swap and role swap at any point before/during/after draft.
+   3. In situations where a team employs role swaps as a routine strategy, the team's initial order should reflect what their most likely roles would be if there were no bans that impacted their roles.
+   4. All teams should be aware of the possibility of role swaps in draft. Lining up in proper order is a convenience and a visual aid, but not a hard commitment to playing certain roles.
+
+5.2 - Draft
+
+1. A draft may not be started without the entire 5 man roster from each team being present.
+   1. If a team does not have their entire 5 man roster in the lobby by 15 minutes after the start time, the opposing team has the ability to claim an automatic win by forfeit. It is up to the opposing team if they are willing to give the team missing members additional time to arrive, but it is not required that they do so.
+      1. If a team forfeits by not having their entire roster in the lobby by 15 minutes after the start time, one of the captains should announce the forfeit within the #captain-text Discord channel.
+2. Draft's will use the third-party tool Draftlol. Whichever team sets up the Draftlol should provide necessary links to their team, the enemy team, and casters.
+   1. Incorrect or missing picks in Draftlol should be promptly corrected in the lobby via chat.
+   2. Draft should continue if one missed pick is quickly clarified in chat. If a second pick is missed or it takes more than 5 seconds for the proper pick to be sent in chat, the draft should be restarted with the offending team losing one second round ban.
+      - In the event that an incorrect pick happens to be a champion that the opposing team planned on playing, the opposing team must declare that and the Draftlol should be restarted with all picks and bans remaining the same up until the mistake was made.
+      - The team that made the mistaken pick must select the champion that they communicated was the original intention in the lobby chat.
+3. This draft should then be recreated in-client with the same picks and bans.
+   1. Players should reorder themselves in the lobby to ensure each player is in the correct role prior to client draft.
+   2. Each player should select their own champion. No champions should be traded.
+
+---
+
+[Page 16 - Draft Errors & Game Rules]
+
+   4. If there is an error or mistake made during the in-client draft, a team's support should leave the lobby and rejoin so that the draft can be restarted. If it happens again, the team which hasn't made a mistake may claim one of three penalties:
+      1. Add one first round ban loss to the draft of the next game in the series.
+      2. Redo the game's draft, with an additional one first round ban loss for the team which made the mistake.
+      3. No immediate penalty, but a third error or mistake results in a game forfeit.
+5. After the series is complete, the Draftlol links for each game must be posted in the #watch-party or #watch-party-2 Discord channel.
+   1. It is usually helpful to post them in the Discord channel as soon as you have created the Draftlol so that you don't forget.
+
+6. Game Rules & Pauses
+
+6.1 - In game
+
+1. Teams are required to use the Beer League voice channels for all matches.
+   1. There are dedicated voice channels that are limited to 6 people (Team 1-9); only the 5 people playing the match should be in the channel during the game.
+2. Unless previously stated at the beginning of the season that a team is open to all chat banter, all chat is to be used by team captains to communicate as necessary.
+   1. In-game toxicity and harassment are strictly prohibited, and will be met with forfeiture of bans in future games/matches. Extreme circumstances may warrant match forfeiture or full disqualification from the tournament.
+      1. Note that teams can opt into exchanging banter and (friendly) insults in-game if they choose to. This should be done by selecting the "banter okay" option in the team sign-up form at the beginning of the season. Alternatively, if a team wants to have a one-off week of banter with the opposing team, both captain's can agree in the client lobby prior to the series starting.
+3. There are no restrictions on using emotes or champion mastery.
+   1. If another team's emote/mastery usage is bothersome, mute their emotes.
+
+6.2 - Pauses
+
+1. Teams may only pause in the case of technical issues, such as client/game bugs, computer crashes, internet problems, or power outages.
+2. Teams are limited to a total of three pauses per game and a maximum of 15 minutes of pause time per game.
+3. Once a team is out of pauses and/or pause time, the game must be resumed regardless of any ongoing issues, or else forfeited.
+
+---
+
+[Page 17 - Pauses & Bugs]
+
+   2. The team with all 5 members may offer to replay the game at another time but are under no obligation to do so.
+      1. Both teams would need to agree to replay and be able to have the series complete by the end of the Beer League week.
+4. A team should only pause when there is no ongoing action in-game (ex. Fighting, heavy trading, or positioning around/contesting a neutral objective).
+   1. If a pause is absolutely necessary in an instance where an objective or fight is either imminent or underway, the pausing team must wait until it resolves or back up and surrender its position before pausing.
+   2. Inappropriate pause timing may be reviewed post-game and result in a punishment of varying severity, up to and including a total game loss.
+
+6.3 - In-game Bugs
+
+1. The Beer League will always attempt to follow Riot's rulings regarding game-impacting bugs during tournaments. Unfortunately, the League does not have the ability to chronobreak games, therefore the Commissioners may be more aggressive when deciding whether or not to disable champions.
+   1. If a champion is disabled, League Commissioners will announce this decision immediately, along with the expected duration for the champion to remain disabled.
+2. Intentional abuse of game-impacting bugs or exploits in order to gain an advantage is strictly prohibited, and it will result in a penalty up to and including forfeiture of the game.
+3. If a game-impacting bugs occurs during a game, one of the captains involved in the game should ping @Commissioners to moderate the situation.
+4. When a game-impacting bug occurs, a League Commissioner will evaluate the bug, its severity, and come to a ruling on how to proceed. This ruling may involve continuing the game as normal, allowing for extra pause time to restart clients/computers as necessary, remaking the game, or declaring a winner of the game.
+   1. A winner will only be declared in instances where the game would otherwise be remade, but in which there is an insurmountable lead as defined by Rule 12.8.1. In the LCS Rulebook, which outlines the following criteria that may guide this decision:
+      1. A team has earned greater than 57.5% of all gold in the game.
+      2. A team has at least 8 more turrets standing than its opponent.
+      3. A team has all inhibitors standing while its opponent has none.
+      4. A team has both nexus turrets standing while its opponent has none.
+      5. A team has 4+ more players currently alive, with substantial death timers remaining for its opponent.
+      6. Straight Up GG - eg, a team's victory is plainly imminent.
+
+6.4 - Broadcasts/streams
+
+1. Individual players are permitted to stream matches from their perspective on their personal channel.
+
+---
+
+[Page 18 - Streaming & Post-Game]
+
+   1. It is strongly advised to use a 3-minute delay when streaming. There is no penalty for ghosting.
+   2. Player streams should include reference to the Beer League, especially the main streaming account (https://www.twitch.tv/beerleagueofficial).
+2. While their series is active, players in-game that are being live streamed should not be in those streams to avoid gaining unfair advantages.
+3. As a reminder, teams are required to cast a minimum quota of games (not their own) based on the season format. If a team does not meet this quota, they will not be eligible for playoffs. Their playoff spot will go to the next eligible team.
+   1. The cast must include one or more players from your team. You may also use someone who is not associated with any team if they have agreed to cast for your team and you have told the Commissioners.
+   2. See minimum number of casts in the top summary.
+   3. When a player has completed a cast, complete the form in the #forms-and-reports channel. If players from two separate teams cast a game, each player should complete the form.
+
+6.5 - Post-Game
+
+1. The winner of the last game should post the results in the #results-spoiler channel in Discord as well as post the draftlol links in the #watch-party channel.
+2. It is strongly suggested that players go to a common voice chat following their series.
+   1. Competition can be emotional, so it is understood that talking after a particularly tough loss can be difficult but players are encouraged to drop in to at least say GG to the opposing team.
+   2. Casters and players can help to make this process more constructive by avoiding gloating and discussing specific outplays until after constructive criticism(s) have been discussed.
+3. Ultimately, we cannot force players to come to post-game discussion but it is highly recommended and important in building up the community.
+
+---
+
+[Pages 19-20 - Change Log]
+
+7. Change Log
+
+Date       | Change                                                                          | Approver(s)
+1/21/26    | Updated to Season 14                                                            | SeeMeNoMas
+1/21/26    | Update to 1.3(4) to include BL Vet status                                       | SeeMeNoMas
+1/21/26    | Update to 6.5.1 to include draftlol post in #watch-party                         | SeeMeNoMas
+8/12/25    | Updated to Season 13                                                            | SeeMeNoMas
+5/24/25    | Updated to Season 12, added cap for BL and BLF, removed casts, 2x 6+ per BLF   | SeeMeNoMas
+8/9/24     | Updated for Season 10                                                           | YouJustGotSlapt
+7/26/24    | Update 1.3 to include new rank requirements                                     | YouJustGotSlapt
+5/20/24    | Adding ruling about losing a ban if game day is decided by coin toss             | YouJustGotSlapt
+5/17/24    | Updated wording around Captain's Guide, 1x 6+ cost player clause                | Dunivaun
+5/4/24     | Updated summary to prepare for season 9                                         | Dunivaun
+1/26/24    | Rewrote the wording around adding rostered subs                                 | Dunivaun & YouJustGotSlapt
+1/15/24    | Made name change penalty less severe (2->1 ban loss), reduced min casts to 3    | Dunivaun
+1/14/24    | Completed updates for Season 8                                                  | Dunivaun & YouJustGotSlapt
+12/27/23   | Began updates for Season 8, clarified ranked games req                          | Dunivaun
+9/9/24     | Corrected misspellings and grammar, updated wording for season 10               | Dunivaun
+8/26/24    | Refreshed dates for season and links for season 10                              | Dunivaun
