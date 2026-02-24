@@ -158,18 +158,6 @@ class BeerFAQBot(discord.Client):
         if message.author.bot or not self.user:
             return
 
-        # Debug: log ALL non-bot messages the bot can see
-        mention_ids = [u.id for u in message.mentions]
-        log.info(
-            "Message from %s in #%s (%s) | mentions=%s | bot_id=%s | content_len=%d",
-            message.author,
-            getattr(message.channel, "name", "DM"),
-            message.channel.id,
-            mention_ids,
-            self.user.id,
-            len(message.content),
-        )
-
         if self.user not in message.mentions:
             return
 
