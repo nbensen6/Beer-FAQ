@@ -23,7 +23,7 @@ class BeerFAQBot(discord.Client):
         self.faq_channel_id: int | None = FAQ_CHANNEL_ID
         self.recent_questions: deque[dict] = deque(maxlen=MAX_RECENT_QUESTIONS)
 
-    _HANDSOME_RE = re.compile(r"handsome.*commissioner|commissioner.*handsome", re.IGNORECASE)
+    _HANDSOME_RE = re.compile(r"handsome.*commi?ss?ioner|commi?ss?ioner.*handsome", re.IGNORECASE)
 
     async def _check_handsome_commissioner(self, question: str, guild: discord.Guild | None) -> str | None:
         """Return a fun response if someone asks about the most handsome commissioner."""
