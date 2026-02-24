@@ -32,11 +32,21 @@ class BeerFAQBot(discord.Client):
         role = discord.utils.find(lambda r: r.name.lower() == "commissioner", guild.roles)
         if not role:
             return None
-        commissioners = [m async for m in guild.fetch_members() if role in m.roles]
+        try:
+            # Use HTTP client directly to avoid members intent requirement
+            data = await self.http.get_members(guild.id, limit=1000, after=None)
+            commissioners = [
+                m for m in data
+                if role.id in [int(r) for r in m.get("roles", [])]
+            ]
+        except Exception:
+            log.warning("Failed to fetch members for commissioner Easter egg")
+            return None
         if not commissioners:
             return None
         winner = random.choice(commissioners)
-        return f"That's an easy one. It's obviously {winner.mention}. No contest."
+        user_id = winner["user"]["id"]
+        return f"That's an easy one. It's obviously <@{user_id}>. No contest."
 
     def _log_question(self, user: str, question: str) -> None:
         """Log a question and store it in the recent questions buffer."""
