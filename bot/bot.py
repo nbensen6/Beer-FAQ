@@ -1,4 +1,6 @@
 import asyncio
+from collections import deque
+from datetime import datetime, timezone
 
 import discord
 from discord import app_commands
@@ -7,6 +9,7 @@ from bot.config import DISCORD_TOKEN, FAQ_CHANNEL_ID, RULEBOOK_REFRESH_HOURS, lo
 from bot.claude_client import ask_rulebook, refresh_rulebook
 
 MAX_RESPONSE_LENGTH = 1900
+MAX_RECENT_QUESTIONS = 50
 
 
 class BeerFAQBot(discord.Client):
@@ -16,10 +19,21 @@ class BeerFAQBot(discord.Client):
         super().__init__(intents=intents)
         self.tree = app_commands.CommandTree(self)
         self.faq_channel_id: int | None = FAQ_CHANNEL_ID
+        self.recent_questions: deque[dict] = deque(maxlen=MAX_RECENT_QUESTIONS)
+
+    def _log_question(self, user: str, question: str) -> None:
+        """Log a question and store it in the recent questions buffer."""
+        log.info("Question from %s: %s", user, question)
+        self.recent_questions.append({
+            "user": user,
+            "question": question,
+            "time": datetime.now(timezone.utc),
+        })
 
     async def setup_hook(self) -> None:
         self.tree.add_command(self._make_ask_command())
         self.tree.add_command(self._make_setchannel_command())
+        self.tree.add_command(self._make_recent_command())
         await self.tree.sync()
         log.info("Slash commands synced")
 
@@ -47,6 +61,7 @@ class BeerFAQBot(discord.Client):
                 return
 
             await interaction.response.defer(thinking=True)
+            bot._log_question(str(interaction.user), question)
 
             try:
                 answer = await ask_rulebook(question)
@@ -87,6 +102,38 @@ class BeerFAQBot(discord.Client):
             )
 
         return setchannel
+
+    def _make_recent_command(self) -> app_commands.Command:
+        bot = self
+
+        @app_commands.command(
+            name="recent",
+            description="Show recently asked questions (admin only)",
+        )
+        @app_commands.default_permissions(manage_guild=True)
+        @app_commands.describe(count="Number of recent questions to show (default 10)")
+        async def recent(interaction: discord.Interaction, count: int = 10) -> None:
+            count = min(count, MAX_RECENT_QUESTIONS)
+            if not bot.recent_questions:
+                await interaction.response.send_message(
+                    "No questions have been asked since the last restart.",
+                    ephemeral=True,
+                )
+                return
+
+            entries = list(bot.recent_questions)[-count:]
+            lines = []
+            for entry in entries:
+                ts = entry["time"].strftime("%m/%d %I:%M %p")
+                lines.append(f"**{entry['user']}** ({ts} UTC)\n> {entry['question']}")
+
+            text = "\n\n".join(lines)
+            if len(text) > MAX_RESPONSE_LENGTH:
+                text = text[:MAX_RESPONSE_LENGTH] + "\n\n*(truncated)*"
+
+            await interaction.response.send_message(text, ephemeral=True)
+
+        return recent
 
     async def on_ready(self) -> None:
         log.info("Logged in as %s (id=%s)", self.user, self.user.id)
@@ -134,6 +181,8 @@ class BeerFAQBot(discord.Client):
                 mention_author=False,
             )
             return
+
+        self._log_question(str(message.author), question)
 
         async with message.channel.typing():
             try:
