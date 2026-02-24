@@ -18,6 +18,7 @@ class BeerFAQBot(discord.Client):
     def __init__(self) -> None:
         intents = discord.Intents.default()
         intents.message_content = True
+        intents.members = True
         super().__init__(intents=intents)
         self.tree = app_commands.CommandTree(self)
         self.faq_channel_id: int | None = FAQ_CHANNEL_ID
@@ -30,23 +31,10 @@ class BeerFAQBot(discord.Client):
         if not self._HANDSOME_RE.search(question) or not guild:
             return None
         role = discord.utils.find(lambda r: r.name.lower() == "commissioner", guild.roles)
-        if not role:
+        if not role or not role.members:
             return None
-        try:
-            # Use HTTP client directly to avoid members intent requirement
-            data = await self.http.get_members(guild.id, limit=1000, after=None)
-            commissioners = [
-                m for m in data
-                if role.id in [int(r) for r in m.get("roles", [])]
-            ]
-        except Exception:
-            log.warning("Failed to fetch members for commissioner Easter egg")
-            return None
-        if not commissioners:
-            return None
-        winner = random.choice(commissioners)
-        user_id = winner["user"]["id"]
-        return f"That's an easy one. It's obviously <@{user_id}>. No contest."
+        winner = random.choice(role.members)
+        return f"That's an easy one. It's obviously {winner.mention}. No contest."
 
     def _log_question(self, user: str, question: str) -> None:
         """Log a question and store it in the recent questions buffer."""
