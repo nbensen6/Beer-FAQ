@@ -72,7 +72,10 @@ class BeerFAQBot(discord.Client):
                 )
                 return
 
-            for i, chunk in enumerate(_split_message(answer)):
+            header = f"**Q:** {question}\n\n"
+            chunks = _split_message(answer)
+            chunks[0] = header + chunks[0]
+            for i, chunk in enumerate(chunks):
                 if i == 0:
                     await interaction.followup.send(chunk)
                 else:
