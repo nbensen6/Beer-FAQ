@@ -18,7 +18,6 @@ class BeerFAQBot(discord.Client):
     def __init__(self) -> None:
         intents = discord.Intents.default()
         intents.message_content = True
-        intents.members = True
         super().__init__(intents=intents)
         self.tree = app_commands.CommandTree(self)
         self.faq_channel_id: int | None = FAQ_CHANNEL_ID
@@ -26,14 +25,17 @@ class BeerFAQBot(discord.Client):
 
     _HANDSOME_RE = re.compile(r"handsome.*commissioner|commissioner.*handsome", re.IGNORECASE)
 
-    def _check_handsome_commissioner(self, question: str, guild: discord.Guild | None) -> str | None:
+    async def _check_handsome_commissioner(self, question: str, guild: discord.Guild | None) -> str | None:
         """Return a fun response if someone asks about the most handsome commissioner."""
         if not self._HANDSOME_RE.search(question) or not guild:
             return None
         role = discord.utils.find(lambda r: r.name.lower() == "commissioner", guild.roles)
-        if not role or not role.members:
+        if not role:
             return None
-        winner = random.choice(role.members)
+        commissioners = [m async for m in guild.fetch_members() if role in m.roles]
+        if not commissioners:
+            return None
+        winner = random.choice(commissioners)
         return f"That's an easy one. It's obviously {winner.mention}. No contest."
 
     def _log_question(self, user: str, question: str) -> None:
@@ -78,7 +80,7 @@ class BeerFAQBot(discord.Client):
             await interaction.response.defer(thinking=True)
             bot._log_question(str(interaction.user), question)
 
-            easter_egg = bot._check_handsome_commissioner(question, interaction.guild)
+            easter_egg = await bot._check_handsome_commissioner(question, interaction.guild)
             if easter_egg:
                 await interaction.followup.send(f"**Q:** {question}\n\n{easter_egg}")
                 return
@@ -208,7 +210,7 @@ class BeerFAQBot(discord.Client):
 
         self._log_question(str(message.author), question)
 
-        easter_egg = self._check_handsome_commissioner(question, message.guild)
+        easter_egg = await self._check_handsome_commissioner(question, message.guild)
         if easter_egg:
             await message.reply(easter_egg, mention_author=False)
             return
